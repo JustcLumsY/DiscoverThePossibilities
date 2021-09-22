@@ -1,0 +1,144 @@
+
+.item1 
+{
+    grid-area: header;
+    background-image: url("mainPage.jpg");
+    width: 1920px;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-text-stroke: medium;
+    
+}
+
+.item2 
+{
+    background-image: url("pexels-photo-451589.jpeg");
+    width: 1920px;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    -webkit-text-stroke: medium;
+    
+}
+
+.item3 
+{
+    background-image: url("pexels-photo-1462011.jpeg");
+    width: 1920px;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    -webkit-text-stroke: medium;
+    
+}
+
+.item4 
+{
+    background-image: url("mainPage.jpg");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+.item5 
+{
+    background-image: url("mainPage.jpg");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.item6 
+{
+    background-image: url("mainPage.jpg");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.grid-container 
+{
+    display: grid;
+    grid-template-areas: 
+        
+        'header header header header header header'
+        'main main main main main main'
+        'footer footer footer footer footer footer';
+        grid-template-rows: 97vh 0 0 0;
+        grid-gap: 0px;
+        background-color: #2196F3;
+        padding: 0px;
+        position: sticky;
+}
+
+.grid-container > div 
+{
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.topnav 
+{
+    overflow: hidden;
+    float: center;
+    padding: 22px;
+}
+
+.topnav a 
+{
+    opacity: 60%;
+    color: whitesmoke;
+    text-decoration: none;
+    position: sticky;
+    font-size: 120%;
+    font-family: auto;
+}
+
+a:hover 
+{
+    border-bottom: 6px solid rgb(255, 255, 255);
+    padding-bottom: 2px;
+    opacity: 100%;
+}
+
+.aTopNav
+{
+    margin: 20px;
+}
+
+
+h1 
+{
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 350%;
+}
+
+h2
+{
+    color: white;
+    font-family: 'Lobster', cursive;
+}
+
+.Disc 
+{
+    margin:19vh 0 0 -28vw;
+}
+
+.The 
+{
+    margin: -2vh 0 0 -3vw;
+}
+
+.Poss 
+{
+    margin: -2vh 0 0 28vw;
+}
+
